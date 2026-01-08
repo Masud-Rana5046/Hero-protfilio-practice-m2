@@ -107,7 +107,7 @@
 
 #plan-container{
     /* width: 100%; */
-  /* max-width: 1140px; */
+  max-width: 1140px;
 
   display: flex;
 
@@ -126,6 +126,7 @@ margin: 0 auto;
 #plan-cointainer .con-plan-card{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 130px;
 }
 
 .con-plan-card .card-plan h2{
@@ -137,4 +138,47 @@ margin: 0 auto;
 .con-plan-card .card-plan p{
   font-size: 25px;
   color: #737272;
+  margin-bottom: 10px;
+}
+#call-container{
+  background-image: url(../watch.png);
+  
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 309px;
+  position: relative; 
+}
+#call-container::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsla(18, 72%, 46%, 0.49)
+}
+
+#call-container .call-contact{
+  max-width: 460px;
+  padding: 50px 80px 617px 64px ;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+.call-contact h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.call-contact .btn-call{
+  padding: 20px 40px;
+  border: none;
+  background-color: #FFFFFF;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
 }
