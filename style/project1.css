@@ -11,6 +11,7 @@
   
 }
 #banner{
+  background-color: #eaeaea;
   background-image: url(../banner/banner1.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -51,3 +52,89 @@
   font-weight: 600px;
 
  }
+ #imag-container{
+  
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ #imag-container img{
+  max-width: 569px;
+   padding-top: 125px;
+  padding-left: 206px;
+  padding-right: 87px;
+  padding-bottom: 130px;
+ }
+
+ #imag-container .img-container-contact{
+  max-width: 416px;
+  padding-top: 364px;
+  padding-left: 0px;
+  padding-right: 322px;
+  padding-bottom: 214ppx;
+ }
+ #imag-container .img-container-contact h2{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #151414;
+ }
+
+  #imag-container .img-container-contact p{
+    font-size: 16px;
+    line-height: 26px;
+   color: #444343;
+   margin-bottom: 16px;
+  }
+
+.img-container-contact ul li{
+  list-style: none;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 8px;
+  
+}
+.img-container-contact ul li a{
+  
+  color: #444343;
+  text-decoration: none;
+}
+.img-container-contact ul li a i{
+  color: #16D887;
+}
+
+#plan-container{
+    /* width: 100%; */
+  /* max-width: 1140px; */
+
+  display: flex;
+
+}
+#plan-cointainer{
+margin-top: 130px;
+max-width: 1140px;
+margin: 0 auto;
+}
+#plan-cointainer h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 55px;
+  color: #151414;
+}
+#plan-cointainer .con-plan-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.con-plan-card .card-plan h2{
+  font-size: 30px;
+  margin-bottom: 16px;
+  color: #151414;
+
+}
+.con-plan-card .card-plan p{
+  font-size: 25px;
+  color: #737272;
+}
